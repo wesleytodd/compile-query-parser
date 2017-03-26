@@ -1,0 +1,25 @@
+{
+  "name": "compile-query-parser",
+  "version": "1.0.0",
+  "description": "The compile query parser function from express",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha",
+    "prepublish": "npm test",
+    "postpublish": "git push && git push --tags"
+  },
+  "keywords": [
+    "express",
+    "query",
+    "compilequeryfunction"
+  ],
+  "author": "Wes <wes@wesleytodd.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "standard": "^9.0.2"
+  },
+  "dependencies": {
+    "qs": "^6.4.0"
+  }
+}
